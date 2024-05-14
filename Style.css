@@ -1,0 +1,25 @@
+#parent_div{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#parent_div>div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+h2{
+    width: 280px;
+    text-align: center;
+}
+p{
+    width: 280px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
